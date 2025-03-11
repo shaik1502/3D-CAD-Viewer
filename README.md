@@ -33,21 +33,9 @@ bash
 Copy
 Edit
 node server.js
-📬 Developer
-👨‍💻 Developed by: Sameer Shaik
-📧 Email: sameer_s@srmap.edu.in
-🔗 LinkedIn: Sameer Shaik
+ Developer
+ Developed by: Sameer Shaik
+ Email: sameer_s@srmap.edu.in
+ LinkedIn: Sameer Shaik
 
-yaml
-Copy
-Edit
 
----
-
-## **7️⃣ Push README.md to GitHub**  
-Now, commit and push the `README.md` file:  
-
-```bash
-git add README.md
-git commit -m "Added README file with project details"
-git push origin main
