@@ -1,0 +1,208 @@
+/* Global Styling */
+body {
+  background-color: #0d0d0d;
+  color: #fff;
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(20, 20, 20, 0.8);
+  box-shadow: 0 0 20px #00ffcc;
+  border: 2px solid #00ffcc;
+}
+
+/* Title */
+.title {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #00ffcc;
+  text-shadow: 0px 0px 10px #00ffcc;
+  margin-bottom: 20px;
+}
+
+/* Server Status */
+.server-status {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.server-online {
+  color: #00ff00;
+  text-shadow: 0 0 10px #00ff00;
+}
+
+.server-offline {
+  color: #ff0000;
+  text-shadow: 0 0 10px #ff0000;
+}
+
+/* Drag & Drop Upload */
+.drag-drop-area {
+  border: 2px dashed #00ffcc;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+  cursor: pointer;
+  color: #00ffcc;
+  text-shadow: 0 0 10px #00ffcc;
+}
+
+.drag-drop-area:hover,
+.dragging {
+  background-color: rgba(0, 255, 204, 0.2);
+}
+
+/* Buttons */
+button {
+  background: linear-gradient(90deg, #00ffcc, #0088ff);
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.3s;
+  border-radius: 5px;
+  text-transform: uppercase;
+  box-shadow: 0px 0px 10px #00ffcc;
+}
+
+button:hover {
+  box-shadow: 0px 0px 20px #00ffcc;
+  transform: scale(1.05);
+}
+
+/* Buttons in the same row */
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* File List */
+.file-list-container {
+  margin-top: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #0088ff;
+}
+
+.file-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.file-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(0, 255, 204, 0.1);
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.file-item:hover {
+  background: rgba(0, 255, 204, 0.3);
+  box-shadow: 0 0 10px #00ffcc;
+}
+
+/* File Buttons */
+.file-btn {
+  background: none;
+  color: #00ffcc;
+  border: 1px solid #00ffcc;
+  padding: 8px 15px;
+  transition: 0.3s;
+}
+
+.file-btn:hover {
+  background: #00ffcc;
+  color: #000;
+  transform: scale(1.05);
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: #ff0000;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.delete-btn:hover {
+  color: #ff3333;
+  text-shadow: 0 0 10px #ff3333;
+}
+
+/* Full-Screen Model Viewer */
+.full-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* No Files Message */
+.no-files {
+  font-size: 1.2rem;
+  color: #ff0000;
+  text-shadow: 0px 0px 10px #ff3333;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00ffcc;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #222;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  color: #00ffff; /* Neon Cyan */
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: bold;
+  border-top: 2px solid #00ffff;
+}
+
+.footer a {
+  color: #00ffff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
