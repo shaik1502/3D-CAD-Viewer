@@ -1,4 +1,4 @@
-# 🏗️ 3D CAD Viewer  
+# 3D CAD Viewer  
 
 A **React.js + Node.js** based **3D CAD Viewer** for uploading, managing, and viewing 3D models.
 
